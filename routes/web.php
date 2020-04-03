@@ -19,18 +19,20 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'PagesController@index');
+Route::get('/about', 'PagesController@about');
+Route::get('/services', 'PagesController@services');
 
 
-Route::get('/hello', function () {
-    //return view('welcome');
-    return '<h1>Hello world</h1>';
-});
+// Route::get('/hello', function () {
+//     //return view('welcome');
+//     return '<h1>Hello world</h1>';
+// });
 
 
-Route::get('/about', function () {
-    //return view('welcome');
-    return view('pages.about');
-});
+// Route::get('/about', function () {
+//     //return view('welcome');
+//     return view('pages.about');
+// });
 
 Route::get('/users/{id}', function ($id) {
     //return view('welcome');
