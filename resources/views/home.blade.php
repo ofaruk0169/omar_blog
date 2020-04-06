@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                    
                     <h3>Your Blog Posts</h3>
                     {{-- @if(is_array($posts)) --}}
                     @if($posts && count($posts) > 0)
@@ -38,6 +38,7 @@
                         <p>You have no posts</p>
                     @endif
                 </div>
+                <a href="/posts/create" class="btn btn-primary">Create Post</a>
             </div>
         </div>
     </div>
