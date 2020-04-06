@@ -51,7 +51,7 @@
                             <a class="nav-link" href="/posts">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link" href="/">About</a>
                         </li>
                         @guest
                             <li class="nav-item">
