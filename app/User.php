@@ -39,4 +39,6 @@ class User extends Authenticatable
     public function post() {
         return $this->hasMany('App\Post');
     }
+
+    
 }

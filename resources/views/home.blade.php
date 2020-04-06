@@ -16,7 +16,9 @@
 
                     <a href="/posts/create" class="btn btn-primary">Create Post</a>
                     <h3>Your Blog Posts</h3>
-                    @if(is_array($posts))
+                    {{-- @if(is_array($posts)) --}}
+                    @if($posts && count($posts) > 0)
+                    {{-- @if(count(array($posts)) > 0); --}}
                     <table class="table table-striped">
                         <tr>
                             <th>Title</th>
@@ -30,7 +32,7 @@
                                 <th></th>
                             </tr>
                         @endforeach
-
+                            
                     </table>
                     @else
                         <p>You have no posts</p>
