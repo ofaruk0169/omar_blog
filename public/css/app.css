@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -34,7 +36,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -66,7 +68,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -170,13 +172,13 @@ sup {
 }
 
 a {
-  color: #3490dc;
+  color: #303c6c;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #1d68a7;
+  color: #fbe8a6;
   text-decoration: underline;
 }
 
@@ -4542,7 +4544,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #d3e3fc;
+  background-color: #f4976c;
 }
 
 .navbar-brand {
@@ -6382,7 +6384,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6507,7 +6509,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6961,7 +6963,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #77a6f7 !important;
+  background-color: #fbe8a6 !important;
 }
 /* #d3e3fc */
 a.bg-primary:hover,
@@ -10670,7 +10672,8 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #303c6c !important;
+  padding-top: 30px;
 }
 
 .text-primary {
@@ -10758,7 +10761,7 @@ a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: #ffffff !important;
+  color: #303c6c !important;
 }
 
 .text-hide {
@@ -10890,5 +10893,41 @@ a.text-dark:focus {
 
 .postbody {
   margin-top: 50px;
+}
+
+.social-links {
+  padding-bottom: 20px;
+}
+
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #161b7f ;
+  color: #fff;
+}
+
+.homeimg {
+  margin-top: 5%;
+  border-radius: 45px;
+  
+  padding: 20px;
+}
+
+#about {
+  border-radius: 25px;
+  
+  padding: 20px;
 }
 
