@@ -33,9 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                                <a class="nav-link" href="/posts/create">Add Post</a>
-                            </li>
+                        
                         </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -44,15 +42,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/services">Services</a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="/posts">Blog</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="/">About</a>
+                            <a class="nav-link" href="/posts">Portfolio</a>
                         </li>
+                       
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>

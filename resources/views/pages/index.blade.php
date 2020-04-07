@@ -10,9 +10,13 @@
               <div class="container">
                   <div class="row justify-content-center">
                       <div class="col-lg-8 text-center">
-                          <h2 class="text-white mt-4">{{$title}}</h2>
+                          <h2 class="text-white mt-4">Hey, welcome to my blog.</h2>
                           <hr class="divider light my-4" />
-                          <p class="text-white-50 mb-4">Hey! Welcome to my blog. I am going to post a bunch of different things here related to programming, music and my life just for fun. Feel free to stalk me.</p>
+                          <p class="text-white-50 mb-4">I don't really have a plan for this blog. 
+                                 Honestly, I just created this to test my skills
+                                 with the Laravel framework, but it could also be a place 
+                                 where I could showcase my creative pursuits in terms of programming, 
+                                 music and writing. Feel free to stalk me.</p>
                           
                       </div>
                   </div>
@@ -21,35 +25,35 @@
           <!-- Services section-->
           <section class="page-section" id="services">
               <div class="container">
-                  <h2 class="text-center mt-0">At Your Service</h2>
-                  <hr class="divider my-4" />
+                  <h2 class="text-center mt-0">What I love</h2>
+                  <hr class="divider my-8" />
                   <div class="row">
                       <div class="col-lg-3 col-md-6 text-center">
-                          <div class="mt-5">
+                          <div class="mt-2">
                               <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                              <h3 class="h4 mb-2">Sturdy Themes</h3>
-                              <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                              <h3 class="h4 mb-2">Music</h3>
+                              <p class="text-muted mb-0">One of my heroes in life is Nujabes. I hope to create some chill, lofi beats like him one day. </p>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
-                          <div class="mt-5">
+                          <div class="mt-2">
                               <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                              <h3 class="h4 mb-2">Up to Date</h3>
-                              <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                              <h3 class="h4 mb-2">Programming</h3>
+                              <p class="text-muted mb-0">I enjoy planning and thinking logically through problems. Programming has made me a better person.</p>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
-                          <div class="mt-5">
+                          <div class="mt-2">
                               <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                              <h3 class="h4 mb-2">Ready to Publish</h3>
-                              <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                              <h3 class="h4 mb-2">Films</h3>
+                              <p class="text-muted mb-0">One of the goals in my life is to get through all the films on my watchlist... That probably isn't happening.</p>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
-                          <div class="mt-5">
+                          <div class="mt-2">
                               <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                              <h3 class="h4 mb-2">Made with Love</h3>
-                              <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                              <h3 class="h4 mb-2">Travel</h3>
+                              <p class="text-muted mb-0">I enjoy experiencing new environments and cultures. My number one destination to visit is Japan.</p>
                           </div>
                       </div>
                   </div>
@@ -58,7 +62,7 @@
          
          
           <!-- Call to action section-->
-          <section class="page-section bg-dark text-white">
+          <section class="page-section bg-primary text-white">
               <div class="container text-center">
                   <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
                   
