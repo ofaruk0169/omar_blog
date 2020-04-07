@@ -10,12 +10,12 @@
               <div class="container">
                   <div class="row justify-content-center">
                       <div class="col-lg-10 text-center">
-                          <h2 class="text-white mt-0 " id="heyscreen">Hey, Welcome to My Blog.</h2>
+                          <h2 class="text-white mt-0 ">Hey, Welcome to My Blog.</h2>
                           <hr class="divider light mb-4" />
                           <p class="text-white-50 mb-4">I don't really have a plan for this blog. 
                                  Honestly, I just created this to test my skills
                                  with the Laravel framework, but it could also be a place 
-                                 where I could showcase my creative pursuits in terms of programming, 
+                                 where I showcase my creative pursuits in terms of programming, 
                                  music and writing. Feel free to stalk me.</p>
                           
                       </div>

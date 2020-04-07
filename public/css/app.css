@@ -10893,6 +10893,10 @@ a.text-dark:focus {
 
 .postbody {
   margin-top: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 3%;
+  color: #303c6c;
 }
 
 .social-links {
@@ -10925,9 +10929,31 @@ a.text-dark:focus {
   padding: 20px;
 }
 
+.showimg {
+  margin-top: 2%;
+  border-radius: 45px;
+  
+  padding: 10px;
+}
+
 #about {
   border-radius: 25px;
   
   padding: 20px;
 }
 
+#blogtitle {
+  text-align: center;
+  border-radius: 25px;
+  
+  padding: 20px;
+  color: #30336c;
+}
+
+#blogh1 {
+  text-align: center;
+}
+
+#blogh3 {
+  text-align: center;
+}
