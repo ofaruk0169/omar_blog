@@ -2,6 +2,7 @@
 
 @section('content')
     
+    
     <h1 class="page-section bg-primary" id="blogtitle">{{$post->title}}</h1>
     <div class="row">
         <div class="col-md-12">
@@ -13,7 +14,11 @@
 
     <small>Written on {{$post->created_at}} </small>
     <hr>
+    
+    {{-- back button --}}
     <a href="/posts" class="btn btn-primary">Go Back</a>
+
+    {{-- user features  --}}
     @if(!Auth::guest())
         @if(Auth::user()->id == $post->user_id)
             <a href="/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a>

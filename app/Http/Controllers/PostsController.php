@@ -25,13 +25,13 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        // $posts = Post::all();
-        $posts = Post::orderBy('created_at', 'desc')->get();
-        // $posts = DB::select('SELECT * FROM posts');
-        return view('posts.index')->with('posts', $posts);
-    }
+    // public function index()
+    // {
+    //     // $posts = Post::all();
+    //     $posts = Post::orderBy('created_at', 'desc')->get();
+    //     // $posts = DB::select('SELECT * FROM posts');
+    //     return view('posts.index')->with('posts', $posts);
+    // }
 
     /**
      * Show the form for creating a new resource.
