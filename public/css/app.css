@@ -10957,3 +10957,8 @@ a.text-dark:focus {
 #blogh3 {
   text-align: center;
 }
+
+#pagination {
+  margin-left: 5%;
+  margin-top: 3%;
+}

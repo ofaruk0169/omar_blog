@@ -26,6 +26,6 @@
 
         @endif
 
-        {{$posts->links() }}
+        {{$posts->links()}}
 
 @endsection
