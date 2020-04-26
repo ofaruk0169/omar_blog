@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-md-8 col-lg-8">
                         <h1 id="blogh1"><a href="/posts/{{$post->id}}">{{ $post->title  }}</a></h1>
-                        <h3 id="blogh3">{{$post->created_at}}</h3>
+                        <h3 id="blogh3">{{ Carbon\Carbon::parse($post->created_at)->format('Y-m-d') }}</h3>
                 </div>
             </div>
                         

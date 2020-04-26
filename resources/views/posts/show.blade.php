@@ -12,7 +12,8 @@
     <p class="postbody page-section bg-primary">{{$post->body}} </p>
     <hr>
 
-    <small>Written on {{$post->created_at}} </small>
+    <small>Written on {{$post->created_at->format('M d, Y')}} </small>
+    
     <hr>
     
     {{-- back button --}}

@@ -55,6 +55,7 @@ Route::get('/users/{id}', function ($id) {
 
 Route::resource('posts', 'PostsController');
 
+
 Auth::routes([
     'register' => false
 ]);
@@ -62,3 +63,4 @@ Auth::routes([
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('posts', 'Pagination@show');
+

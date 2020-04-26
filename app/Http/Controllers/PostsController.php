@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Carbon\Carbon;
 use App\Post;
 use DB;
 
@@ -92,8 +93,11 @@ class PostsController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
+        Carbon::parse($post['created_at'])->format('M d, Y');
         return view('posts.show')->with('post', $post);
     }
+
+  
 
     /**
      * Show the form for editing the specified resource.
