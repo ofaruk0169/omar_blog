@@ -16,7 +16,7 @@
                                  Honestly, I just created this to test my skills
                                  with the Laravel framework, but it could also be a place 
                                  where I showcase my creative pursuits in terms of programming, 
-                                 music and writing. Feel free to stalk me.</p>
+                                 music and writing.</p>
                           
                       </div>
                   </div>
@@ -41,14 +41,14 @@
                           <div class="mt-2">
                               <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
                               <h3 class="h4 mb-2">Programming</h3>
-                              <p class="text-muted mb-0">I enjoy planning and thinking logically through problems. Programming has made me a better person.</p>
+                              <p class="text-muted mb-0">A goal of mine is to create an app people use in their everyday life. I love programming!</p>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
                           <div class="mt-2">
                               <i class="fas fa-4x fa-globe text-primary mb-4"></i>
                               <h3 class="h4 mb-2">Films</h3>
-                              <p class="text-muted mb-0">One of the goals in my life is to get through all the films on my watchlist... That probably isn't happening.</p>
+                              <p class="text-muted mb-0">Another in my life is to get through all the films on my watchlist... That probably isn't happening.</p>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
@@ -87,12 +87,13 @@
                           <h2 class="mt-5">Let's Get In Touch!</h2>
                           <hr class="divider my-4" />
                           <p class="text-muted mb-5">If you have any enquiries for me please do not hesitate to get in touch!</p>
+                          
                       </div>
                   </div>
                   <div class="row">
                       <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                          <div>+44 745-676-4403</div>
+                          <div>+44 (0) 74567 64403</div>
                       </div>
                       <div class="col-lg-4 mr-auto text-center">
                           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
@@ -101,6 +102,9 @@
                   </div>
               </div>
           </section>
+
+
+          
       
 @endsection
 

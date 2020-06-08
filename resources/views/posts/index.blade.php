@@ -13,10 +13,14 @@
                 </div>
                 <div class="col-md-8 col-lg-8">
                         <h1 id="blogh1"><a href="/posts/{{$post->id}}">{{ $post->title  }}</a></h1>
-                        <h3 id="blogh3">{{ Carbon\Carbon::parse($post->created_at)->format('Y-m-d') }}</h3>
+                       
                 </div>
+                
             </div>
-                        
+            <div class="card-footer text-muted">
+                Posted on {{ Carbon\Carbon::parse($post->created_at)->format('Y-m-d') }}
+               
+              </div>                       
                     
             @endforeach
             </ul>
@@ -25,7 +29,10 @@
         @else
 
         @endif
-
+        
+        <br>
         {{$posts->links()}}
+
+
 
 @endsection
