@@ -12,7 +12,7 @@
                 <img style="width: 110%" src="/storage/cover_images/{{$post->cover_image}}" alt="Blog Image">
                 </div>
                 <div class="col-md-8 col-lg-8">
-                        <h1 id="blogh1"><a href="/posts/{{$post->id}}">{{ $post->title  }}</a></h1>
+                        <h1 class="blogh1"><a href="/posts/{{$post->id}}">{{ $post->title  }}</a></h1>
                        
                 </div>
                 
