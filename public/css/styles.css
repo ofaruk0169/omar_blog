@@ -67,7 +67,41 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+
+
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #0c7a2d, #77670a, #0e557e);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 60s ease-in-out infinite;
+
+
+
 }
+
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -159,12 +193,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #d6cfcb;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #b3aaa6;
   text-decoration: underline;
 }
 
@@ -4353,7 +4387,7 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 10px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  background-image: linear-gradient(#f9f047, #0fd850);
+  background-image: linear-gradient(#c03631, #0fd850);
 }
 .card > hr {
   margin-right: 0;
@@ -4417,6 +4451,7 @@ input[type=button].btn-block {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  margin-top: 3%;
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -6099,7 +6134,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #1ead55 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6295,7 +6330,7 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 20% !important;
 }
 
 .rounded-pill {
@@ -9801,7 +9836,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #38bd55 !important;
+  color: #d3dbd5 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10118,6 +10153,11 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+
+#interests {
+  margin-top: 25%;
+}
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
@@ -10140,4 +10180,85 @@ section.resume-section .resume-section-content {
   font-size: 470%;
   margin-left: 5%;
   
+  
+}
+
+.postbody {
+  margin: 5% 10% 5% 10%;
+  border: thick;
+  line-height: 50px;
+}
+
+.showing {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.postWhole {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#blogtitle {
+  text-align:center;
+  margin-top: 5%;
+  text-shadow: white 0px 0px 10px;
+}
+
+#mainBlogTitle {
+  text-align:center;
+  margin-bottom: 5%;
+  text-shadow: white 0px 0px 10px;
+}
+
+.nameMain {
+  text-align:center;
+}
+
+.text-html {
+  color: orange;
+}
+
+.text-css {
+  color: rgb(37, 130, 206);
+}
+
+.text-js {
+  color: rgb(201, 204, 19);
+}
+
+.text-vue {
+  color: greenyellow;
+}
+
+.text-react {
+  color: aqua;
+}
+
+.text-python {
+  color: rgb(205, 218, 26);
+}
+
+.text-bootstrap {
+  color: rgb(134, 15, 163);
+}
+
+.text-aws {
+  color: rgb(202, 134, 7);
+}
+
+.text-laravel {
+  color: rgb(216, 27, 27);
+}
+
+.text-git {
+  color: rgb(8, 1, 1);
+}
+
+.text-github {
+  color: rgb(15, 4, 4);
+}
+
+.text-npm {
+  color: rgb(153, 17, 17);
 }

@@ -3,12 +3,13 @@
 @section('content')
     
     
-    <h1 class="page-section " id="blogtitle">{{$post->title}}</h1>
-    <div class="row">
+   
+    <div class="row postWhole">
         <div class="col-md-12">
             <img style="width: 100%" src="/storage/cover_images/{{$post->cover_image}}" alt="current cover image" class="showimg">
         </div>
     </div>
+    <h1 class="page-section " id="blogtitle">{{$post->title}}</h1>
     <p class="postbody page-section">{{$post->body}} </p>
     <hr>
 

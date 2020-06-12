@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1 class="page-section bg-primary" id="blogtitle">My Blog Entries</h1>
+    <h1 class="page-section bg-primary" id="mainBlogTitle">My Blog Entries</h1>
         @if(count($posts) > 0)
         <div class="card">
                     <ul class="list-group list-group-flush">
