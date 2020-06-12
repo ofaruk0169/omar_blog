@@ -52,7 +52,7 @@
 
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/">About</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/posts">Blog</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://omarefaruk.com/">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://omarefaruk.com/" target="_blank">Portfolio</a></li>
             
 
 

@@ -4394,9 +4394,9 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 10px solid rgba(0, 0, 0, 0.125);
+  border: 10px solid rgba(255, 255, 255, 0.125);
   border-radius: 0.25rem;
-  background-image: linear-gradient(#c03631, #0fd850);
+  background-image: linear-gradient(#a75407, #0fd850);
 }
 .card > hr {
   margin-right: 0;
@@ -4458,8 +4458,8 @@ input[type=button].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(128, 115, 115, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 10px solid rgba(255, 255, 255, 0.125);
   margin-top: 3%;
 }
 .card-footer:last-child {

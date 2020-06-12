@@ -17,7 +17,10 @@
             <div class="subheading mb-5 numberMain">  · +44 (0) 74567-64403 · <a href="mailto:ofaruk0169@gmail.com">ofaruk0169@gmail.com</a></div>
             <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
             <div class="social-icons">
-                <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a><a class="social-icon" href="#"><i class="fab fa-github"></i></a><a class="social-icon" href="#"><i class="fab fa-twitter"></i></a><a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="social-icon" href="https://www.linkedin.com/in/omare-faruk-776336155/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/ofaruk0169" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="social-icon" href="https://twitter.com/omewan456" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="social-icon" href="https://www.messenger.com/t/osmosmar" target="_blank"><i class="fab fa-facebook-f"></i></a>
             </div>
         </div>
     </section>
