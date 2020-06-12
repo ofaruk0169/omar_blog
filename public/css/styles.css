@@ -193,12 +193,12 @@ sup {
 }
 
 a {
-  color: #d6cfcb;
+  color: azure;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #b3aaa6;
+  text-shadow: rgb(100, 98, 98) 0px 0px 5px;
   text-decoration: underline;
 }
 
@@ -427,6 +427,13 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  color: antiquewhite;
+}
+
+.numberMain {
+  color: white;
+  mix-blend-mode: difference;
+  text-align:center;
 }
 
 .display-1 {
@@ -480,10 +487,12 @@ mark,
 .list-inline {
   padding-left: 0;
   list-style: none;
+  
 }
 
 .list-inline-item {
   display: inline-block;
+  
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -4449,7 +4458,7 @@ input[type=button].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(128, 115, 115, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   margin-top: 3%;
 }
@@ -9904,7 +9913,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: azure !important;
 }
 
 .text-black-50 {
@@ -10071,6 +10080,12 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.subSectionSub {
+  text-shadow: white 0px 0px 10px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -10127,17 +10142,23 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #7e1e1e;
-  color: #fff;
+  background-color: #10c74d;
+  color: rgb(231, 231, 231);
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  
 }
+
+.text-titlePrimary {
+  color: #bfc0bf;
+}
+
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #30861a;
+  background-color: #175707;
 }
 
 .dev-icons {
@@ -10179,6 +10200,7 @@ section.resume-section .resume-section-content {
 .blogh1 {
   font-size: 470%;
   margin-left: 5%;
+  text-align: center;
   
   
 }
@@ -10187,6 +10209,7 @@ section.resume-section .resume-section-content {
   margin: 5% 10% 5% 10%;
   border: thick;
   line-height: 50px;
+  color: azure;
 }
 
 .showing {
@@ -10240,7 +10263,7 @@ section.resume-section .resume-section-content {
 }
 
 .text-bootstrap {
-  color: rgb(134, 15, 163);
+  color: rgb(90, 9, 110);
 }
 
 .text-aws {
@@ -10260,5 +10283,9 @@ section.resume-section .resume-section-content {
 }
 
 .text-npm {
-  color: rgb(153, 17, 17);
+  color: rgb(112, 7, 7);
+}
+
+small {
+  color: azure;
 }

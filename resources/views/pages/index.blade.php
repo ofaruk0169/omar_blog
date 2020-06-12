@@ -13,8 +13,8 @@
     <!-- About-->
     <section class="resume-section" id="about">
         <div class="resume-section-content">
-            <h1 class="mb-0 nameMain">Omar <span class="text-primary">Faruk</span></h1>
-            <div class="subheading mb-5 nameMain">  · +44 (0) 74567-64403 · <a href="mailto:ofaruk0169@gmail.com">ofaruk0169@gmail.com</a></div>
+            <h1 class="mb-0 nameMain subSectionSub">Omar Faruk</h1>
+            <div class="subheading mb-5 numberMain">  · +44 (0) 74567-64403 · <a href="mailto:ofaruk0169@gmail.com">ofaruk0169@gmail.com</a></div>
             <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
             <div class="social-icons">
                 <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a><a class="social-icon" href="#"><i class="fab fa-github"></i></a><a class="social-icon" href="#"><i class="fab fa-twitter"></i></a><a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -27,7 +27,7 @@
     <!-- Skills-->
     <section class="resume-section" id="skills">
         <div class="resume-section-content">
-            <h2 class="mb-5">Skills</h2>
+            <h2 class="mb-5 subSectionSub">Skills</h2>
             <div class="subheading mb-3">Programming Languages & Tools</div>
             <ul class="list-inline dev-icons">
                 <li class="list-inline-item text-html"><i class="fab fa-html5"></i></li>
@@ -44,7 +44,7 @@
                 <li class="list-inline-item text-npm"><i class="fab fa-npm"></i></li>
             </ul>
             <div class="subheading mb-3">Workflow</div>
-            <ul class="fa-ul mb-0">
+            <ul class="fa-ul mb-0 text-muted">
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>Mobile-First, Responsive Design
                 </li>
@@ -64,33 +64,33 @@
     <!-- Interests-->
     <section class="resume-section" id="interests">
         <div class="resume-section-content">
-            <h2 class="mb-5">Interests</h2>
+            <h2 class="mb-5 subSectionSub">Interests</h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-2">
                         <i class="fas fa-4x fa-guitar text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Music</h3>
+                        <h3 class="h4 mb-2 numberMain">Music</h3>
                         <p class="text-muted mb-0">I love Nujabes. I hope to create some chill, lofi beats like him one day. </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-2">
                         <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Programming</h3>
+                        <h3 class="h4 mb-2 numberMain">Programming</h3>
                         <p class="text-muted mb-0">A goal of mine is to create applications people use in their everyday life. I love programming!</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-2">
                         <i class="fas fa-4x fa-film text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Films</h3>
+                        <h3 class="h4 mb-2 numberMain">Films</h3>
                         <p class="text-muted mb-0">Another goal in my life is to get through all the films on my watchlist...</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="mt-2">
                         <i class="fas fa-4x fa-plane text-primary mb-4"></i>
-                        <h3 class="h4 mb-2">Travel</h3>
+                        <h3 class="h4 mb-2 numberMain">Travel</h3>
                         <p class="text-muted mb-0">I enjoy experiencing new cultures. My number one destination to visit is Japan.</p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                      {{-- <img src="/img/space.jpg" alt="this is a cool picture i found" height="100%" width="100%" class="homeimg"> --}}
                   <div class="row justify-content-center">
                       <div class="col-lg-8 text-center">
-                          <h2 class="mt-5">Let's Get In Touch!</h2>
+                          <h2 class="mt-5 subSectionSub">Let's Get In Touch!</h2>
                           <hr class="divider my-4" />
                           <p class="text-muted mb-5">If you have any enquiries for me please do not hesitate to get in touch!</p>
                           
@@ -119,7 +119,7 @@
                   <div class="row">
                       <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                          <div>+44 (0) 74567 64403</div>
+                          <div class="numberMain">+44 (0) 74567 64403</div>
                       </div>
                       <div class="col-lg-4 mr-auto text-center">
                           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
