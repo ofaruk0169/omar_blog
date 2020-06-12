@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header subSectionSub">Dashboard</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -39,6 +39,9 @@
                     @endif
                 </div>
                 <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                <br>
+                 <a href="{{ route('logout') }}" class="btn btn-primary">Log Out</a>
+                
             </div>
         </div>
     </div>

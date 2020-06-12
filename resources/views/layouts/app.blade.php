@@ -68,7 +68,7 @@
                     @endif
                 @else
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" >
+                        <a class="nav-link js-scroll-trigger" href="{{ route('home') }}" >
                             {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
 
