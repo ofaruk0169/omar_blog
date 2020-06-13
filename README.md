@@ -1,5 +1,6 @@
 Install
 1. Clone the source code or create new project.
+
 git clone git@github.com:ofaruk0169/omar_blog.git
 
 2. Set the basic config
