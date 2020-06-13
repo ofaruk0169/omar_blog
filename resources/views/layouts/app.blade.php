@@ -10,7 +10,7 @@
     <title>Omar's Blog</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
 
 
     <!-- Fonts -->
@@ -29,7 +29,7 @@
 
     <!-- Styles -->
     {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
-    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/styles.css') }}" rel="stylesheet">
     
 </head>
 <body id="page-top">
