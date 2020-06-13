@@ -14,3 +14,6 @@ Edit the .env file and set the database and other config for the system after yo
 npm install
 
 3. Please copy the SQL file included within the folder into your PHPmyadmin 
+
+![pasted image 0](https://user-images.githubusercontent.com/47423327/84578701-b7122580-adbf-11ea-9347-12c0ef4f990b.png)
+
