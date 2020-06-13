@@ -4,9 +4,11 @@
 
 # Dashboard
 
+![blabla](https://user-images.githubusercontent.com/47423327/84578878-0573f400-adc1-11ea-9496-48ddf56d6612.png)
 
 
-Install
+
+# How to install
 1. Clone the source code or create new project.
 
 git clone git@github.com:ofaruk0169/omar_blog.git
