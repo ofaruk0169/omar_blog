@@ -1,3 +1,11 @@
+ # Front page 
+
+![front](https://user-images.githubusercontent.com/47423327/84578846-c180ef00-adc0-11ea-9715-cf9c1019ba42.png)
+
+# Dashboard
+
+
+
 Install
 1. Clone the source code or create new project.
 
@@ -14,10 +22,3 @@ Edit the .env file and set the database and other config for the system after yo
 npm install
 
 3. Please copy the SQL file included within the folder into your PHPmyadmin 
-
-# Front page 
-
-![front](https://user-images.githubusercontent.com/47423327/84578846-c180ef00-adc0-11ea-9715-cf9c1019ba42.png)
-
-
-
