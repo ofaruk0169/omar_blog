@@ -13,6 +13,4 @@ Edit the .env file and set the database and other config for the system after yo
 
 npm install
 
-npm run production
-3. Run the blog install command, the command will run the migrate command and generate test data.
-php artisan blog:install
+3. Please copy the SQL file included within the folder into your PHPmyadmin 
