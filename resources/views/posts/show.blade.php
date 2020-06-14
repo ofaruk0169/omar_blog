@@ -6,7 +6,7 @@
    
     <div class="row postWhole">
         <div class="col-md-12">
-            <img style="width: 100%" src="https://ibb.co/n6YcNPLs" alt="current cover image" class="showimg">
+            <img style="width: 100%" src="/img/finalfinal.jpg" alt="current cover image" class="showimg">
         </div>
     </div>
     <h1 class="page-section " id="blogtitle">{{$post->title}}</h1>
