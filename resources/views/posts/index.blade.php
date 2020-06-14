@@ -9,7 +9,7 @@
                 
             <div class="row">
                 <div class="col-md-6 col-lg-2">
-                <img style="width: 100%" src="/img/finalfinal.png" alt="Blog Image">
+                <img style="width: 130%" src="/img/finalfinal.png" alt="Blog Image">
                 </div>
                 <div class="col-md-8 col-lg-8">
                         <h1 class="blogh1"><a href="/posts/{{$post->id}}">{{ $post->title  }}</a></h1>
