@@ -9,7 +9,7 @@
                 
             <div class="row">
                 <div class="col-md-6 col-lg-2">
-                <img style="width: 100%; text-align: center;" src="/img/finalfinal.png" alt="Blog Image">
+                <img style="width: 100%; text-align: center;" src="/img/finalfinal2.png" alt="Blog Image">
                 </div>
                 <br>
                 <div class="col-md-8 col-lg-8">
