@@ -9,8 +9,7 @@
 
 # Blog Listings
 
-![index](https://user-images.githubusercontent.com/47423327/84578889-22102c00-adc1-11ea-8726-596842154a38.png)
-
+![image](https://user-images.githubusercontent.com/47423327/93014113-1db50400-f5a6-11ea-9b48-90123622e7be.png)
 
 # How to install
 1. Clone the source code or create new project.
