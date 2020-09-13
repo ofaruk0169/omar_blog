@@ -1,6 +1,7 @@
  # Front page 
 
-![front](https://user-images.githubusercontent.com/47423327/84578846-c180ef00-adc0-11ea-9715-cf9c1019ba42.png)
+![image](https://user-images.githubusercontent.com/47423327/93014052-aa12f700-f5a5-11ea-89c4-d420caaeb108.png)
+
 
 # Dashboard
 
